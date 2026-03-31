@@ -3,7 +3,7 @@ import numpy as np
 from sklearn.metrics import confusion_matrix, classification_report, mean_squared_error
 
 # Load saved model
-model = tf.keras.models.load_model("models/best_model.h5")
+model = tf.keras.models.load_model("models/final_model.h5")
 
 # Load validation dataset
 val_ds = tf.keras.utils.image_dataset_from_directory(
